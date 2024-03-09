@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="flex justify-between">
       <Link to={'/'} className="flex items-center gap-1">
-        <img src={airbnbicon}  alt="airbnb log" className="w-8 h-8"/>
+        <img src={airbnbicon}  alt="airbnb logo" className="w-8 h-8"/>
         <span className="font-bold text-xl text-red-500">airbnb</span>
       </Link> 
       
